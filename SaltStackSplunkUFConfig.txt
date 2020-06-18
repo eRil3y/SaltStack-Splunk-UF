@@ -1,0 +1,8 @@
+UniversalForwarder:
+  '8.0.0':
+    full_name: 'UniversalForwarder'
+    installer: '(Location of your Splunk Universal Forwarder .msi installer)'
+    install_flags: 'RECEIVING_INDEXER="SPLUNK_IP:9997" DEPLOYMENT_SERVER="SPLUNK_IP:8089" SPLUNKUSERNAME=YourSplunkUser SPLUNKPASSWORD=WhateverYouPutAsThePassword AGREETOLICENSE=Yes /quiet'
+    uninstaller: '(Location of your Splunk Universal Forwarder .msi installer)'
+    uninstall_flags: '/qn /norestart'
+    msiexec: True
